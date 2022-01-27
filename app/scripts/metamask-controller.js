@@ -1288,9 +1288,6 @@ export default class MetamaskController extends EventEmitter {
       updateAndApproveTransaction: txController.updateAndApproveTransaction.bind(
         txController,
       ),
-      trackTransactionMetricsEvent: txController.trackTransactionMetricsEvent.bind(
-        txController,
-      ),
       createCancelTransaction: this.createCancelTransaction.bind(this),
       createSpeedUpTransaction: this.createSpeedUpTransaction.bind(this),
       estimateGas: this.estimateGas.bind(this),
